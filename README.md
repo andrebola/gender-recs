@@ -38,4 +38,4 @@ Finally, to run the last experiment (simulations) the following script must be e
 
 ## Cite
 
-
+Andrés Ferraro, Xavier Serra, and Christine Bauer (2021). Break the Loop: Gender Imbalance in Music Recommenders. In Proceedings of the 2021 ACM SIGIR Conference on Human Information Interaction and Retrieval (CHIIR ’21), March 14–19, 2021, Canberra, ACT, Australia. ACM, New York, NY, USA. https://doi.org/10.1145/3406522.3446033
