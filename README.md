@@ -1,7 +1,7 @@
 ## Description
 
 
-This repository contains the code to reproduce the results of the paper entitled "Break the Loop: Gender Imbalance in Music Recommenders", by Andres Ferraro, Xavier Serra and Christine Bauer.
+This repository contains the code to reproduce the results of the paper entitled "Break the Loop: Gender Imbalance in Music Recommenders", by Andres Ferraro, Xavier Serra, and Christine Bauer.
 
 ## Instructions
 
