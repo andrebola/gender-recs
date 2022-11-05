@@ -9,7 +9,7 @@ This repository contains the code to reproduce the results of the paper entitled
 
 Download the datasets and locate them in the folder `./data`. The artist information should be also located in the same folder; it can be downloaded from [here](https://zenodo.org/record/3748787).
 
-Install dependencies specified in requirements.py
+Install dependencies specified in requirements.txt
 
 **Step 2**
 
