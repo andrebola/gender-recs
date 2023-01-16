@@ -122,6 +122,9 @@ if __name__== "__main__":
     json.dump(track_gender, open(os.path.join('data', 'lastfm', 'track_gender.json'), 'w'))
     fan_train_play = sparse.coo_matrix((fan_data_play, (fan_row_train, fan_col_train)), dtype=np.float32)
     #print ("TRAIN USERS", fan_train_play.shape)
+    if not os.path.isdir(os.path.join('data', 'lastfm')):
+        os.mkdir(os.path.join('data', 'lastfm'))
+ 
     sparse.save_npz(os.path.join('data', 'lastfm', 'tracks_train_data_playcount.npz'), fan_train_play)
     pickle.dump(fan_test_data, open(os.path.join('data', 'lastfm','tracks_test_data.pkl'), 'wb'))
     pickle.dump(fan_items_dict, open(os.path.join('data','lastfm', 'tracks_items_dict.pkl'), 'wb'))

@@ -242,6 +242,10 @@ if __name__== "__main__":
     model_folder = 'models'
     user_features_file = os.path.join(model_folder, split_folder, user_features_playcounts_filename)
     item_features_file = os.path.join(model_folder, split_folder, item_features_playcounts_filename)
+    if not os.path.isdir(os.path.join(model_folder, split_folder)):
+        os.mkdir(model_folder)
+        os.mkdir(os.path.join(model_folder, split_folder))
+ 
     item_ids, item_vecs_reg, user_ids, user_vecs_reg = train_als(fan_train_data, 200, fan_users_dict, fan_items_dict, user_features_file, item_features_file, save_res=True)
     #item_ids, item_vecs_reg, user_ids, user_vecs_reg = train(fan_train_data_fidelity, 50, fan_users_dict, fan_items_dict, model_folder, save_res=True)
     #user_ids, user_vecs_reg = load_feats(user_features_file)
