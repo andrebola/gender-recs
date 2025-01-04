@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: If you use this code, please cite both the article from preferred-citation and the code itself.
+authors:
+  - family-names: Ferraro
+    given-names: Andres
+    orcid: "https://orcid.org/0000-0003-1236-2503"
+  - family-names: Serra
+    given-names: Xavier
+    orcid: "https://orcid.org/0000-0003-1395-2345"
+  - family-names: Bauer
+    given-names: Christine
+    orcid: "https://orcid.org/0000-0001-5724-1137"
+title: 'Code for: Break the loop: gender imbalance in music recommenders'
+version: 1.0.0
+date-released: '2021-01-04'
+url: "https://github.com/andrebola/gender-recs"
+preferred-citation:
+  authors:
+    - family-names: Ferraro
+      given-names: Andres
+      orcid: "https://orcid.org/0000-0003-1236-2503"
+    - family-names: Serra
+      given-names: Xavier
+      orcid: "https://orcid.org/0000-0003-1395-2345"
+    - family-names: Bauer
+      given-names: Christine
+      orcid: "https://orcid.org/0000-0001-5724-1137"
+  title: 'Break the loop: gender imbalance in music recommenders'
+  doi: 10.1145/3406522.3446033
+  type: conference-paper
+  start: 249
+  end: 254
+  year: '2021'
+  collection-title: "6th ACM SIGIR Conference on Human Information Interaction and Retrieval"
+  conference:
+    name: "CHIIR ‘21"
+  publisher:
+    name: "ACM"
+    address: "New York, NY, USA"
